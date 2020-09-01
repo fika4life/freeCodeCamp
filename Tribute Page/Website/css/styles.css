@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Varta");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap");
+  /*   hosted images link template
+https://drive.google.com/uc?export=view&id=1UtbB2ZOwPGuGg-WKHphGk3dkmRU65Y8V"
+
+Color codes
+dark red: #A42424*/
+  /*light tan: #FFEFEF*/ /*dark grey: #221D1D*/
+
+
+/*----------------------Global styles-----------------------*/ 
+
+html{
+    height: 100%;
+}
+
+
+body {
+    font-family: "Crimson Text", serif;
+    font-size: 1.4em;
+    max-width: 1700px;
+    margin: 0 auto;
+    height:100%
+    
+  
+}
+
+h2,
+h3 {
+  text-transform: uppercase;
+  font-family: "Varta", sans-serif;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+/*----------------------Banner styles----------------------*/
+header{
+/*    rice paper bg*/
+    background-image: url("https://drive.google.com/uc?export=view&id=1wS4yl-zvz2b5qXbrj7vJnoNICNckMswb");
+    height:87%;
+    min-height:520px;
+}
+
+#banner {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    display: inline-block;
+    height: 95%;
+
+}
+
+#banner-text {
+    width: 300px;
+    color: #ffefef;
+    background-color: #a42424;
+    margin-right: 100px;
+    height: 110%;
+    z-index: 1;
+    box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.7);
+    float:left;
+    padding: .5em;
+}
+
+#banner-text h1,
+#banner-text h5,
+#banner-text h4 {
+  margin: 0px;
+}
+
+#banner-text h1 {
+  padding-top: 14px;
+}
+
+#banner-text h4 {
+  margin-top: 35px;
+}
+
+.main-text {
+  font-family: "Varta", sans-serif;
+  font-size: 4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.byline {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.main-quote {
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  font-size: 36px;
+  padding: 15px;
+}
+
+#img-div {
+  max-width: 575px;
+  float:left;
+    
+
+
+}
+
+#img-caption{
+    display: none;
+}
+
+#banner img {
+    height: auto;
+    width: 100%;
+    min-width: 300px;
+    position: relative;
+    bottom: -13px;
+      display:block;
+    max-width: 100%;
+    margin-top: 25px;
+    
+   
+}
+
+
+
+/*----------------------summary section----------------------*/
+#tribute-info {
+  margin-left: 15%;
+  margin-top: 6%;
+  background-image: url(https://drive.google.com/uc?export=view&id=1UtbB2ZOwPGuGg-WKHphGk3dkmRU65Y8V);
+  background-repeat: no-repeat;
+
+  font-size: 18px;
+}
+
+.summary-text {
+  margin: 5% 20% 5% 5%;
+  vertical-align: middle;
+  padding-top: 50px;
+}
+
+/*----------------------Teachings section----------------------*/
+
+/*margins of content below summary text*/
+.summary,
+.teachings {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.summary h2,
+.teachings h2 {
+  font-size: 34px;
+}
+
+.teachings {
+    background-image: url(https://drive.google.com/uc?export=view&id=10fH2zJ2w_x7aOPiPZ3iMrAeXo3onJO1b);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: bottom right;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    
+}
+
+.teachings p {
+  margin-bottom: 14px;
+}
+
+.teachings .article-with-image {
+  
+}
+
+.teachings .article-with-image img {
+  max-height: 400px;
+  position: relative;
+  top: -50px;
+    float:right;
+   
+}
+
+
+.quote {
+  display: flex;
+  align-content: center;
+
+
+}
+
+.quote span {
+    font-style: normal;
+    font-size: 12em;
+    margin: 0;
+    position: relative;
+    top: -70px;
+    max-height: 150px;
+}
+
+blockquote {
+  font-style: italic;
+  float: left;
+  margin: 10px;
+  
+
+}
+
+/*----------------------Works section----------------------*/
+
+.works {
+    background-image: url(https://drive.google.com/uc?export=view&id=1wS4yl-zvz2b5qXbrj7vJnoNICNckMswb);
+    
+
+}
+
+#work-container{
+    margin:2% 10% 0% 10%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.works img {
+    position: relative;
+    top: -70px;
+    height: 123.2%;
+}
+
+.work {
+    padding-top: 35px; 
+    max-width: 60%
+}
+
+.cta {
+  background-color: #a42424;
+  color: #ffefef;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 4px;
+  border: 0;
+  margin-top: 10%;
+  box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.7);
+}
+
+/*----------------------Footer section----------------------*/
+footer {
+  font-size: 0.7em;
+  background-color: #221d1d;
+  margin: 0;
+  color: #ffefef;
+  text-align: center;
+  padding: 28px 0 28px 0;
+  font-family: "Varta", sans-serif;
+}
+
+footer a:any-link {
+  color: #ffefef;
+}
+
+
+/*responsive media queries*/
+
+@media screen and (max-width: 1249px){
+    header{
+        height: 145%;
+        display:block;
+        min-height: 850px;
+    }
+    
+    #banner{
+        margin: 0 auto;
+        height: 45%;
+    }
+    
+    #banner-text{
+        width:100%;
+        margin: 0;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        height:90%
+    }
+    
+    #banner{
+        text-align: center;
+        max-width: none;
+        
+        
+    }
+    
+    #img-div{
+        margin: 0 auto;
+        display: inline-block;
+        float: none;
+  
+    }
+    
+    #banner img {
+        text-align: center;
+        max-width: 520px;
+        display: block;
+        margin-top: 0;
+    }
+    
+    
+    
+    .teachings .article-with-image {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    
+  
+    
+    .teachings .article-with-image img{
+        top:0;
+        float: none;
+        
+        
+    }
+    
+    .work {
+        padding-top: 0px; 
+        max-width: 100%;
+        padding-bottom: 35px;
+            
+    }
+  
+}
+
+
+
